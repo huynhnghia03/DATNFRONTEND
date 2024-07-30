@@ -148,7 +148,7 @@ function Profile() {
                                 <div>
                                     {user?.topics?.length <= 0 ? <span>Chưa đăng ký khóa học nào</span> :
                                         user?.topics?.map((course, index) => <div key={index} className={cx('profile-inner')}>
-                                            <Link className={cx('profile-thumb')} to={'/Learning/' + course.slug + ''}><img className={cx('thumb-img')} src={course.image} alt='1' /></Link>
+                                            <Link className={cx('profile-thumb')} to={'/Learning/' + course.slug + ''}><img className={cx('thumb-img')} src={process.env.REACT_APP_BACKEND_URL + '/topic/' + course.image} alt='1' /></Link>
                                             <div className={cx('info')}>
                                                 <h3 className={cx('info-title')}><Link to={'/Learning/' + course.slug + ''}>{course.name}</Link></h3>
                                                 <p className={cx('info-desc')}>{course.description}</p>

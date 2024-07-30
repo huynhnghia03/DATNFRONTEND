@@ -1,7 +1,7 @@
 
 import classNames from 'classnames/bind'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faXmark, faBookOpenReader, faCircleExclamation, faFileSignature, faGear, faShieldHalved } from '@fortawesome/free-solid-svg-icons'
+import { faXmark, faBookOpenReader } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 import { useContext } from 'react'
 import styles from './BarMenu.module.scss'
