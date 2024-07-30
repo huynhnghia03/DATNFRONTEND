@@ -76,47 +76,6 @@ function BarMenu() {
                                 ))
                             }
                         </ul>
-                        <ul className={cx('details', 'detail-list')}>
-                            <li className={cx('item-child')}>
-                                <NavLink style={navLinkStyle} to={ConfigRoutes.Introduce} className={cx('sidebar-item')} >
-                                    <em>
-                                        <FontAwesomeIcon icon={faCircleExclamation} />
-                                    </em>
-                                    <span>Giới thiệu</span>
-                                </NavLink>
-                            </li>
-                            <li className={cx('item-child')}>
-                                <NavLink style={navLinkStyle} to={ConfigRoutes.Contact} className={cx('sidebar-item')} >
-                                    <em>
-                                        <FontAwesomeIcon icon={faFileSignature} />
-                                    </em>
-                                    <span>Liên hệ</span>
-                                </NavLink>
-                            </li>
-                            {user.Username &&
-                                <li className={cx('item-child')}>
-                                    <NavLink style={navLinkStyle} to={ConfigRoutes.setting} className={cx('sidebar-item')} >
-                                        <em>
-                                            <FontAwesomeIcon icon={faGear} />
-                                        </em>
-                                        <span>Cài đặt tài khoản</span>
-                                    </NavLink>
-                                </li>}
-                            {user.Username &&
-                                <li className={cx('item-child')}>
-                                    <NavLink style={navLinkStyle} to={ConfigRoutes.Security} className={cx('sidebar-item')} >
-                                        <em>
-                                            <FontAwesomeIcon icon={faShieldHalved} />
-                                        </em>
-                                        <span>Bảo mật và đăng nhập</span>
-                                    </NavLink>
-                                </li>
-                            }
-                            {/* <ul>
-                                <li><NavLink to={ConfigRoutes.setting}><span>Cài đặt tài khoản</span></NavLink></li>
-
-                            </ul> */}
-                        </ul>
                         {user.Username &&
                             <ul className={cx('details', 'detail-list')}>
 
