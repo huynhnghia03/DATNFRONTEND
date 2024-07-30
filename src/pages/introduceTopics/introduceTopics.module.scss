@@ -1,0 +1,340 @@
+.module-grid {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.module-fullwidth {
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+
+
+.profile-container,
+.discuss-contain {
+    padding: 0 24px;
+}
+
+.profile-container {
+    margin-bottom: 50px;
+}
+
+.discuss-contain {
+    margin: 20px 0;
+}
+
+.discuss-heading {
+    font-weight: 700;
+}
+
+
+.box-wrapper {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 18px;
+    word-break: break-word;
+}
+
+
+.module-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.listOfTech {
+    font-size: 1.4rem;
+    display: inline-block;
+    margin: 0;
+    padding: 24px 0 10px 4px;
+    text-align: left;
+
+    li {
+
+        color: #494949;
+        font-size: 1.5rem;
+        line-height: 1.6;
+        margin-bottom: 10px;
+        padding-left: 35px;
+        position: relative;
+    }
+}
+
+.headersticky {
+    background-color: #fff;
+    padding-bottom: 4px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 66px;
+    z-index: 2;
+}
+
+.subHeader {
+    display: flex;
+    font-size: 1.4rem;
+    margin-top: 4px;
+
+    ul {
+        display: flex;
+        margin: 0;
+        padding-left: 0;
+    }
+}
+
+.dot {
+    font-size: 1.4rem;
+    margin-top: 1px;
+    opacity: .8;
+    padding-left: 8px;
+}
+
+.content-left {
+    align-items: center;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-left: 24px;
+    padding-bottom: 20px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 90px;
+
+    h5 {
+        color: #f50123;
+        font-size: 32px;
+        font-weight: 400;
+        margin: 0 auto;
+        opacity: .8;
+    }
+
+    button,
+    a {
+        text-align: center;
+        font-size: 1.6rem;
+        margin-top: 16px;
+        min-width: 180px;
+        padding: 10px 16px;
+    }
+
+}
+
+.imgPreview {
+    border-radius: 16px;
+    margin: 2px 0 20px;
+    overflow: hidden;
+    position: relative;
+    user-select: none;
+    width: calc(100% - 2px);
+
+    .bg {
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        padding-top: 56.25%;
+        width: 100%;
+    }
+
+
+
+}
+
+
+.ciriculum_PanelofCourse {
+    margin: 12px 0 48px;
+}
+
+.ciriculum_PanelGroup {
+    .ciriculum_Panel {
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        margin-bottom: 8px;
+    }
+}
+
+.ciriculum_Panel {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    margin-bottom: 20px;
+}
+
+.ciriculum_PanelHeading {
+    background: #f5f5f5;
+    border: 1px solid #ebebeb;
+    border-radius: 6px;
+    padding: 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 120px;
+    z-index: 1;
+}
+
+.ciriculum_PenalTitle {
+    color: inherit;
+    font-size: 16px;
+    margin-bottom: 0;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+.ciriculum_PenalHeadLine {
+    color: black;
+    font-size: 1.6rem;
+    font-weight: 400;
+    overflow: hidden;
+    padding: 14px;
+    position: relative;
+
+    svg {
+        padding-right: 10px;
+    }
+}
+
+
+.ciriculum_PanelCollasap {
+    display: none;
+}
+
+.ciriculum_PanelCollasapIn {
+    display: block;
+}
+
+.ciriculum_PanelBody {
+    padding: 0;
+}
+
+.ciriculum_lessonItem {
+    border-bottom: 1px solid rgba(0, 0, 0, .03);
+    color: black;
+    font-size: 1.4rem;
+    line-height: 48px;
+    overflow: hidden;
+    padding: 0 30px 0 48px;
+    position: relative;
+}
+
+.ciriculum_floatlef {
+    float: left;
+}
+
+.ciriculum_iconLink {
+    transition: all .3s ease-in-out;
+}
+
+.ciriculum_lessonItem .ciriculum_icon.ciriculum_video {
+    color: rgba(240, 81, 35, .4);
+    margin-right: 4px;
+}
+
+.ciriculum_lessonItem .ciriculum_icon {
+    left: 32px;
+    position: absolute;
+    top: 17px;
+}
+
+.ciriculum_lessonName {
+    padding-left: 6px;
+}
+
+.ciriculum_lessonTime {
+    float: right;
+}
+
+
+.icon {
+    left: 0;
+    position: absolute;
+    top: 4px;
+}
+
+
+.col {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.col-c-12 {
+    width: 100%;
+}
+
+
+@media (min-width: 0px) and (max-width: 739px) {
+    .profile-container {
+        margin-top: 30px;
+        padding: 0;
+    }
+
+
+}
+
+@media (max-width: 740px) {
+    .discuss-contain {
+        padding: 0;
+        margin: 10px 0;
+    }
+}
+
+@media (min-width: 1113px) {
+    .module-row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}
+
+
+
+@media (min-width: 740px) {
+    .col {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .col-m-12 {
+        width: 100%;
+    }
+
+    .module-row {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .module-fullwidth .module-row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .module-fullwidth .col-l-5 {
+        width: 41.66667%;
+    }
+
+    .col-l-7 {
+        width: 58.33333%;
+    }
+
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width: 1113px) {
+    .col-l-4 {
+        width: 33.33333%;
+    }
+
+    .col-l-8 {
+        width: 66.66667%;
+    }
+
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}

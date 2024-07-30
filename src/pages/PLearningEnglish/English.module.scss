@@ -1,0 +1,284 @@
+.module-grid {
+    padding: 0;
+    margin: 0 auto;
+}
+
+.module-fullwidth {
+    width: 100%;
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+
+
+.profile-container,
+.discuss-contain {
+    padding: 0 24px;
+}
+
+.profile-container {
+    margin-bottom: 50px;
+}
+
+.discuss-contain {
+    margin: 40px 0;
+}
+
+.discuss-heading {
+    font-weight: 700;
+    font-size: 2.7rem;
+}
+
+.discuss-text {
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+
+.icon-fix {
+    color: #4f4d4d;
+    font-size: 1.4rem;
+    margin-right: 8px;
+    width: 20px;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.box-wrapper {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .3), 0 0 1px 0 rgba(0, 0, 0, .3);
+    margin-bottom: 20px;
+    padding: 18px;
+    word-break: break-word;
+}
+
+
+.participation {
+    align-items: flex-start;
+    display: flex;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    margin-top: 15px;
+}
+
+.participation-icon {
+    color: #808990;
+    margin-right: 8px;
+    margin-top: 2px;
+    text-align: center;
+    width: 20px;
+}
+
+.hightlight {
+    font-weight: 600;
+}
+
+.profile-inner {
+    align-items: flex-start;
+    border-bottom: 1px solid #d0d7de;
+    display: flex;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+}
+
+.profile-inner:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.profile-thumb {
+    flex-shrink: 0;
+    height: 128px;
+    // margin-right: 24px;
+    width: 228px;
+}
+
+.profile-thumb .thumb-img {
+    border-radius: 16px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.info-title,
+.info-title-1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 7px;
+
+}
+
+.info-title-1 {
+    font-size: 2.3rem !important;
+}
+
+.info-desc {
+
+    display: -webkit-box;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-top: 4px;
+    // white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    padding-right: 10px
+}
+
+.discuss-tags {
+    background-color: #f2f2f2;
+    border-radius: 100px;
+    color: #333;
+    font-weight: 500;
+    line-height: 2rem;
+    margin-right: 12px;
+    padding: 4px 10px;
+}
+
+
+
+.text-text {
+    font-size: 1.7rem;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.btn-study {
+    font-size: 2rem;
+    padding: 5px 15px;
+    background: #ff7f1c;
+    border-radius: 9px;
+    color: #fff !important;
+    font-weight: 700;
+
+    &:hover {
+        background: #ff6f00 !important;
+    }
+}
+
+.module-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+
+
+
+@media (min-width: 1239px) {
+    .module-fullwidth .module-row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .module-fullwidth .col-l-6 {
+        width: 49.33333%;
+    }
+
+
+
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+@media (min-width: 1113px) {
+    .module-row {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+
+    .col-l-6 {
+        width: 49.33333%;
+    }
+
+    .fix-margin {
+        margin-top: 50px;
+    }
+
+    .col {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
+
+.col {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.col-c-12 {
+    width: 100%;
+}
+
+
+
+@media (min-width: 740px) {
+    .col {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .col-m-12 {
+        width: 100%;
+    }
+
+    .module-row {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 739px) {
+    .profile-inner {
+        flex-direction: column;
+    }
+
+    .profile-thumb {
+        height: auto;
+        margin-bottom: 12px;
+        margin-right: 0;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .discuss-contain {
+        padding: 0;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-study {
+        width: 50%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+
+    .profile-container {
+        margin-top: 30px;
+        padding: 0;
+    }
+
+
+}
+
+@media (min-width:0) and (max-width:500px) {
+    .text-text {
+        display: none;
+    }
+
+    .box-wrapper {
+        margin: 30px 0;
+    }
+}
